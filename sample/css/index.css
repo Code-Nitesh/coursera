@@ -27,8 +27,9 @@ div > ul > li {
   text-align: center;
   border: 2px solid blue; 
   display:block;
-  width: 40%;
+  width: 20%;
   margin: 10px 8px;
+  margin-top: 3%;
   padding-left: 30px;
   padding: 2px 4px;
 }
@@ -45,12 +46,13 @@ div a {
   text-align: center;
   margin: 5px 5px;
   padding: 0px 10px;
-  
+  width: 45%;
   
   
 }
 
 form {
+  display: flex;
   
   padding: 10px 10px;
   margin-bottom: 10px;
@@ -90,3 +92,18 @@ label {
   padding-bottom: 0px;
   }
   
+  .content {
+    display:inline-block;
+    position: relative;
+    left: 55%;
+    bottom:80%;
+    width:40%;
+    
+    border: 2px solid black;
+  }
+  
+  #h1, #h2 {
+    border: 2px solid grey;
+    margin: 2px 2px;
+    
+  }
