@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif, Comic Sans MS ,Times New Roman;
+}
+
+.headersett {
+  background-image: url('../image/g2-md.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 650px;
+}
+
+.wel-main {
+  padding-top: 25%;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.serviceset {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 100px 0px 60px;
+  height: 700px;
+}
+.serviceset h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.rowset {
+  margin: 100px 0px !important;
+}
+.imgset {
+  padding: 0px 10px;
+}
+.imgset h3 {
+  margin-top: 40px;
+}
+.fa-gamepad {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding-top: 25px;
+}
+.fa-windows {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding-top: 25px;
+}
+.fa-android {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding-top: 25px;
+}
+.form-row-sett {
+  padding: 10px 40px;
+}
+.form-setting {
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+#para-wrap {
+  padding: 30px;
+}
+
+
+/*  media queries for extra small device like smartphone */
+@media(max-width:480px) {
+  .headersett {
+    background-image: url('../image/g2-md.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+  }
+  .serviceset {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 100px 0px 60px;
+    height: 1300px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1190px) {
+  .headersett {
+    background-image: url('../image/g2-md.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1600px;
+  }
+
+  .wel-main {
+    padding-top: 25%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .wel-main h2 {
+    font-size: 100px;
+  }
+  .m-sett {
+    text-align: right;
+  }
+
+  .m-sett a {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 36px;
+
+  }
+
+  #bd-name {
+    font-size: 55px;
+  }
+
+  #para-wrap {
+    padding-right: 33%;
+    padding-left: 5%;
+  }
+
+
+}
+
+
+/* game section css starts here */
+/*.Android-set{
+     background-image: url('../image/g2-md.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+}*/
+.Android-set {
+  background-color: #eec900;
+  background-attachment: fixed;
+  width: 100%;
+  height: 650px;
+  padding-top: 30px;
+}
+
+.table-sett {
+  padding-top: 30px;
+}
+.table tr {
+  border-top: 2px solid #7f7f7f;
+  border-bottom: 2px solid #7f7f7f;
+}
+/* game section css end here */
+
+/* about section css */
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.rowset-ab {
+  padding-top: 50px;
+}
+
+.imgset-ab {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.imgset-ab h3 {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.card-imgset {
+  border: none;
+}
+.card-imgset img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.team-set {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.rowset-team {
+  padding: 40px 0px;
+}
+/* about section css end  */
