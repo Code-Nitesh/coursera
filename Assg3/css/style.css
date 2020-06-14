@@ -1,0 +1,41 @@
+*{
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: grey;
+}
+.menu-set{
+  border: 2px solid black;
+  background-color:#0d0b0b;
+  margin: 30px 10px;
+}
+
+.menu-set h3{
+  padding-bottom:60px;
+  padding-top:10px;
+}
+.return-page a{
+  text-decoration: none;
+}
+@media(min-width:767px){
+  #bd-name{
+    font-size: 40px;
+  }
+  .heading{
+    font-size:4.5em;
+  }
+  .m-sett{
+    display: none;
+  }
+  .menu-set {
+  height:1200px;
+  }
+  .menu-set h3{
+    font-size: 40px;
+  }
+  .menu-set p{
+    font-size: 30px;
+  }
+}
